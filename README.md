@@ -1,18 +1,20 @@
-# FEE Boilerplate React/Bable/Webpack 
+# 6.1 review
 
-## Initial Setup Gotchas with Babel and Webpack
-### DO NOT DO THESE WHEN STARTING NEW PROJECTS WHEN COPYING THIS REPO
-  - Install webpack `$ npm install --save-dev webpack`
-  - Run `$ npm install --save-dev babel-cli`
-  - Create `.babelrc` file `$ touch .babelrc`
-    ```js
-      {
-        "presets": ["es2015"]
-      }
-    ```
-  - Add to `scripts: {}` inside of `package.json` to specify input/output folders for babel to run
-  - `$ npm install --save-dev babel-loader babel-core babel-preset-es2015 babel-preset-react`
-  - `$ npm install --save-dev react react-dom`
+## requirements
+[x] - bring in boilerplate
+[] - Make a view that has a single image
+  [] - src
+  [] - alt
+  [] - class to use for styling
+[] - Modal element
+  [] - hidden by default
+  [] - class to make it viewable
+  [] - has full width and height image in center
+[] - Click handler on image
+ [] - adds class to make modal viewable
+ [] - inject the image source
+ [] - inject the image alt
+
 
 ## Development
   - `$ npm install -g webpack`
