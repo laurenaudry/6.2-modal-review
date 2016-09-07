@@ -8,6 +8,7 @@
   [x] - class to use for styling
 [] - Modal element
   [x] - set up file for modal
+  [] - opens image (full size, opaque background)
   [] - hidden by default
   [] - class to make it viewable
   [] - has full width and height image in center
