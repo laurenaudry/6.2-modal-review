@@ -6,16 +6,25 @@
   [x] - src
   [x] - alt
   [x] - class to use for styling
-[] - Modal element
+[x] - Modal element
   [x] - set up file for modal
-  [] - opens image (full size, opaque background)
-  [] - hidden by default
-  [] - class to make it viewable
-  [] - has full width and height image in center
-[] - Click handler on image
- [] - adds class to make modal viewable
- [] - inject the image source
- [] - inject the image alt
+  [x] - opens image (full size, opaque background)
+  [x] - has full width and height image in center
+  [x] - class to make it viewable
+  [x] - hidden by default
+[x] - Click handler on image
+ [x] - adds class to make modal viewable
+ [x] - inject the image source
+ [x] - inject the image alt
+[] - make new album
+  [] - make data to hold refs to images/albums
+  [] - list of thumbnails (100x100)
+  [] - names of albums
+  [] - heading referencing current album displayed
+[] - click album to view new list of photos
+  [] - setup handler
+  [] - get album name
+  [] - use album name to get album data
 
 
 ## Development
