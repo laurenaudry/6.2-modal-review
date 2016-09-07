@@ -6,7 +6,13 @@
   height: 20rem;
   width: 25rem;
 }
+/*
+  IMAGES
+*/
 
+/*
+  MODAL
+*/
 .modal {
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
@@ -19,7 +25,7 @@
 }
 
 .modal-show {
-
+  display: block;
 }
 
 .modal_image {

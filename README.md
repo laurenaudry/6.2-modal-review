@@ -25,6 +25,8 @@
   [] - setup handler
   [] - get album name
   [] - use album name to get album data
+[] - create sidebar
+
 
 
 ## Development
