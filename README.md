@@ -1,12 +1,13 @@
 # 6.1 review
 
 ## requirements
-[x] - bring in boilerplate
-[] - Make a view that has a single image
-  [] - src
-  [] - alt
-  [] - class to use for styling
+[x] - Bring in boilerplate
+[x] - Make a view that has a single image
+  [x] - src
+  [x] - alt
+  [x] - class to use for styling
 [] - Modal element
+  [x] - set up file for modal
   [] - hidden by default
   [] - class to make it viewable
   [] - has full width and height image in center
