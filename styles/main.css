@@ -18,8 +18,9 @@ html {
 .sidebar {
   background-color: rgb(233, 233, 233);
   float: left;
-  height: 60%;
+  height: 100%;
   width: 10rem;
+  cursor: pointer;
 }
 
 .sidebar-list {
@@ -38,8 +39,8 @@ html {
 }
 
 .image {
-  height: 15rem;
-  width: 20rem;
+  height: 20rem;
+  width: 25rem;
   margin: 1.2rem;
 }
 /*
