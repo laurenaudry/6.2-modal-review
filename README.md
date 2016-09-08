@@ -1,18 +1,38 @@
-# FEE Boilerplate React/Bable/Webpack 
+# 6.1 review
 
-## Initial Setup Gotchas with Babel and Webpack
-### DO NOT DO THESE WHEN STARTING NEW PROJECTS WHEN COPYING THIS REPO
-  - Install webpack `$ npm install --save-dev webpack`
-  - Run `$ npm install --save-dev babel-cli`
-  - Create `.babelrc` file `$ touch .babelrc`
-    ```js
-      {
-        "presets": ["es2015"]
-      }
-    ```
-  - Add to `scripts: {}` inside of `package.json` to specify input/output folders for babel to run
-  - `$ npm install --save-dev babel-loader babel-core babel-preset-es2015 babel-preset-react`
-  - `$ npm install --save-dev react react-dom`
+## requirements
+- [x] Bring in boilerplate
+- [x] Make a view that has a single image
+  - [x] src
+  - [x] alt
+  - [x] class to use for styling
+- [x] Modal element
+  - [x] set up file for modal
+  - [x] opens image (full size, opaque background)
+  - [x] has full width and height image in center
+  - [x] class to make it viewable
+  - [x] hidden by default
+- [x] Click handler on image
+ - [x] adds class to make modal viewable
+ - [x] inject the image source
+ - [x] inject the image alt- 
+[] make new album
+  - [x] make data to hold refs to images/albums
+-   [] list of thumbnails (100x100)
+  - [x] names of albums
+-   [] heading referencing current album displayed
+- [x] click album to view new list of photos
+  - [x] setup handler
+  - [x] get album name
+  - [x] use album name to get album data
+- [x] create sidebar
+  - [x] album name links
+  - [x] styled to match wireframe- 
+[] Modal functionality
+-   [] clicks to go back to previous image
+-   [] click to go to next image
+-   [] click button to close modal
+
 
 ## Development
   - `$ npm install -g webpack`

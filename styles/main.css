@@ -1,3 +1,92 @@
 /*
   Main Stylesheet
 */
+html {
+  font-size: 62.5%;
+  font-family: herculanum;
+}
+
+.heading {
+  background-color: rgb(233, 233, 233);
+  color: black;
+  font-size: 5rem;
+  height: 8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: rgb(233, 233, 233);
+  float: left;
+  height: 100%;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.sidebar-list {
+  color: black;
+  display: inline-block;
+  font-size: 2.5rem;
+  list-style: none;
+  line-height: 4rem;
+  overflow: auto;
+  padding: 0;
+}
+
+.album_name {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.image {
+  height: 20rem;
+  width: 25rem;
+  margin: 1.2rem;
+}
+/*
+  MODAL
+*/
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.modal-show {
+  display: block;
+}
+
+.modal_image {
+  height: 40rem;
+  width: 40rem;
+}
+
+.modal_hide {
+  background-color: rgba(255, 255, 255, 0.5);;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2rem;
+  left: 25px;
+  padding: 5px;
+  position: absolute;
+  top: 25px;
+}
+.modal_back {
+  color: white;
+  display: inline-block;
+  font-size: 4rem;
+  padding: 5rem;
+}
+
+.modal_next {
+  color: white;
+  display: inline-block;
+  font-size: 4rem;
+  padding: 5rem;
+}
