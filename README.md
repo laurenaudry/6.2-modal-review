@@ -17,16 +17,21 @@
  [x] - inject the image source
  [x] - inject the image alt
 [] - make new album
-  [] - make data to hold refs to images/albums
+  [x] - make data to hold refs to images/albums
   [] - list of thumbnails (100x100)
-  [] - names of albums
+  [x] - names of albums
   [] - heading referencing current album displayed
-[] - click album to view new list of photos
-  [] - setup handler
-  [] - get album name
-  [] - use album name to get album data
-[] - create sidebar
-
+[x] - click album to view new list of photos
+  [x] - setup handler
+  [x] - get album name
+  [x] - use album name to get album data
+[x] - create sidebar
+  [x] - album name links
+  [x] - styled to match wireframe
+[] - Modal functionality
+  [] - clicks to go back to previous image
+  [] - click to go to next image
+  [] - click button to close modal
 
 
 ## Development
