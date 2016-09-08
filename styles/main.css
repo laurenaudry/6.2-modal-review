@@ -3,12 +3,12 @@
 */
 html {
   font-size: 62.5%;
-  font: helvetica;
+  font-family: herculanum;
 }
 
 .heading {
-  background-color: rgb(45, 45, 45);
-  color: white;
+  background-color: rgb(233, 233, 233);
+  color: black;
   font-size: 5rem;
   height: 8rem;
   margin: 0;
@@ -16,14 +16,14 @@ html {
 }
 
 .sidebar {
-  background-color: rgb(45, 45, 45);
+  background-color: rgb(233, 233, 233);
   float: left;
   height: 60%;
   width: 10rem;
 }
 
 .sidebar-list {
-  color: white;
+  color: black;
   display: inline-block;
   font-size: 2.5rem;
   list-style: none;
