@@ -1,17 +1,40 @@
 /*
   Main Stylesheet
 */
+html {
+  font-size: 62.5%;
+  font: helvetica;
+}
+
+.heading {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  font-size: 5rem;
+  height: 8rem;
+  margin: 0;
+  text-align: center;
+}
+
 .sidebar {
   background-color: rgb(45, 45, 45);
   float: left;
-  height: 60rem;
+  height: 60%;
   width: 10rem;
 }
 
 .sidebar-list {
   color: white;
+  display: inline-block;
   font-size: 2.5rem;
   list-style: none;
+  line-height: 4rem;
+  overflow: auto;
+  padding: 0;
+}
+
+.album_name {
+  font-size: 3rem;
+  text-align: center;
 }
 
 .image {
@@ -40,4 +63,29 @@
 .modal_image {
   height: 40rem;
   width: 40rem;
+}
+
+.modal_hide {
+  background-color: rgba(255, 255, 255, 0.5);;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2rem;
+  left: 25px;
+  padding: 5px;
+  position: absolute;
+  top: 25px;
+}
+.modal_back {
+  color: white;
+  display: inline-block;
+  font-size: 4rem;
+  padding: 5rem;
+}
+
+.modal_next {
+  color: white;
+  display: inline-block;
+  font-size: 4rem;
+  padding: 5rem;
 }
